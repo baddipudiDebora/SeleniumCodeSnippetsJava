@@ -22,7 +22,7 @@ public class AssertionDemo {
 
         //Verify if site title is correct using hard assert
         String ActualTitle = driver.getTitle();
-        String ExpectedTitle = "Swag1 Labs";
+        String ExpectedTitle = "Swag Labs";
 //        // soft assert
 //        SoftAssert sassert = new SoftAssert();
 //        sassert.assertEquals(ActualTitle, ExpectedTitle);
