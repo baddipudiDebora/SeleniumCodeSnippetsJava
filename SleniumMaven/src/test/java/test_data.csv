@@ -1,0 +1,9 @@
+Keyword,Parameter1,Parameter2
+OPEN_BROWSER,,
+NAVIGATE_TO_URL,https://www.example.com,
+CLICK,//button[@id='login'],
+ENTER_TEXT,//input[@id='username'],testUser
+ENTER_TEXT,//input[@id='password'],testPass
+CLICK,//button[@id='submit'],
+VERIFY_TEXT,//div[@id='welcome'],Welcome testUser
+CLOSE_BROWSER,,

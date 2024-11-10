@@ -32,7 +32,8 @@ public class MalFormedURLusingURLclass {
             String url = link.getAttribute("href");
             if (url != null && !url.isEmpty()) {
                 try {
-                    // Validate URL
+                    // Validate URL the new URL(url) constructor in Java validates the passed URL.
+                    // When you create a new URL object, it parses the string representation of the URL and throws a MalformedURLException if the URL is not valid.
                     new URL(url);
                     System.out.println("Valid URL: " + url);
                 } catch (MalformedURLException e) {

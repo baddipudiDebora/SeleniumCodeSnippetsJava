@@ -1,0 +1,7 @@
+OPEN_BROWSER,
+NAVIGATE_TO_URL,https://www.saucedemo.com/,
+ENTER_TEXT,//input[@id='user-name'],standard_user
+ENTER_TEXT,//input[@id='password'],secret_sauce
+CLICK,//input[@id='login-button'],
+VERIFY_TEXT,//button[@id='react-burger-menu-btn'],Open Menu
+CLOSE_BROWSER,

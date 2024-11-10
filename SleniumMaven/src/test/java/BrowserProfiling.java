@@ -56,7 +56,6 @@ public class BrowserProfiling {
 
             driver.manage().window().maximize();
             driver.get("https://www.tutorialspoint.com/selenium/practice/upload-download.php");
-        System.out.println("Hi");
             driver.findElement(By.id("downloadButton")).click();
             driver.get("https://stackoverflow.com/questions/10340373/how-to-send-cookies-with-selenium-webdriver");
             // Get all cookies
