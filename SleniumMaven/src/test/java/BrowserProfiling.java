@@ -41,7 +41,7 @@ public class BrowserProfiling {
                 options.addArguments("--disable-notifications");
                 options.addArguments("--start-maximized");
                 options.addArguments("--user-data-dir=/path/to/your/custom/profile");
-
+                options = new ChromeOptions(); options.addArguments("--headless");
 
                 // Create a map to set the preferences
                 Map<String, Object> prefs = new HashMap<>();

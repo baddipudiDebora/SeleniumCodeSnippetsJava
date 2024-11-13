@@ -23,7 +23,7 @@ public class MalFormedURLusingURLclass {
         driver.manage().window().maximize();
 
         //Navigate to the site
-        driver.get("https://www.google.com/");
+        driver.get("https://www.amazon.com/");
 
         // Find all links on the page
         List<WebElement> links = driver.findElements(By.tagName("a"));

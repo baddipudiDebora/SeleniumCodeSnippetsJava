@@ -13,6 +13,7 @@ public  class BasicTestCode {
 
     public static void openBrowser(String DriverToPass)
     {
+
         WebDriver driver = null;
        if(DriverToPass.equalsIgnoreCase("FirefoxDriver")){
             driver = new FirefoxDriver();

@@ -27,6 +27,7 @@ public class MalFormedURLclickingOnit {
             String url = link.getAttribute("href");
             if (url != null && !url.isEmpty()) {
                 try {
+                    System.out.println(url);
                     driver.get(url);
                     if (driver.getCurrentUrl().equals(url)) {
                         System.out.println("Valid URL: " + url);
